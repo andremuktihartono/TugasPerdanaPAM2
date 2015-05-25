@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>Makanan Tradisional Indonesia</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true" data-inset= "true">
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Mie Aceh</h4>
+						<p>Informasi Tentang Mie Aceh</p>
+						<span class="ui-li-count">15</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/05.jpg"/>
+						<h4>Bika Ambon</h4>
+						<p>Informasi Tentang Bika Ambon</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/06.jpg"/>
+						<h4>Rendang</h4>
+						<p>Informasi Tentang Rendang</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/07.jpg"/>
+						<h4>Gulai Ikan Patin</h4>
+						<p>Informasi Tentang Gulai Ikan Patin</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI - 672012038 &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Tugas Perdana dari Matakuliah Pemrograman Aplikasi Mobile 2. <br> 
+				Saya Andre Mukti Hartono.<br>
+				NIM 672012038.<br>
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
